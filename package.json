@@ -1,0 +1,16 @@
+{
+  "name": "birthday-wish-experience",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium cinematic birthday surprise website with React, Vite, Express, MongoDB, email and WhatsApp notifications.",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend & npm run dev --workspace backend",
+    "build": "npm run build --workspace frontend",
+    "start": "npm run start --workspace backend",
+    "lint": "npm run lint --workspace frontend && npm run lint --workspace backend"
+  }
+}
